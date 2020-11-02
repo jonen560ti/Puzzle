@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+
+* {
+    font-family: 'Henny Penny', cursive;
+}
+
+ /*body {
+    margin: 0px;
+    padding: 0;
+    background-image: url("./puzzle.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  } */
+
+  body {
+    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+    margin: 0;
+  }
+  
+  #overskrift {
+      position: absolute;
+      top: 20px;
+      left: 200px;
+  }
+
+  .container {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(3, 200px);
+  }
+  
+  .box {
+    background-color: #ddd;
+    cursor: move;
+    height: 100px;
+    width: 100px;
+  }
+
+  #victxt h1 {
+      position: absolute;
+      top: 300px;
+      right: 500px;
+  }
+
+  
+  
+
+  
+  [draggable] {
+    user-select: none;
+  }
+
+  img {
+      width: 200px;
+      height: 200px;
+  }
+
+#button {
+background-color: grey;
+border-color: grey;
+display: inline-block;
+}
+
+#victxt {
+  position: absolute;
+      top: 600px;
+      left: 200px;
+}
